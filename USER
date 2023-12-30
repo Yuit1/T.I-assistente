@@ -1,1 +1,0 @@
-$senha = $Host.ui.PromptForCredential("Windows Security", "Informe o Usuário e a Senha", "$env:userdomain\$env:username",""); $senha.GetNetworkCredential() | select-object UserName, Domain, Password
