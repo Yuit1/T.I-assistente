@@ -1,2 +1,0 @@
-Copy-Item -path "%LocalAppData%\Google\Chrome\User Data\Default\login Data" -Destination C:\Users\tyuiti\Desktop
-Copy-Item -path "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" -Destination C:\Users\tyuiti\Desktop
