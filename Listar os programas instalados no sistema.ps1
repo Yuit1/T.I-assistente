@@ -1,6 +1,3 @@
-Write-Host "Você escolheu a opção 23. Ação 23 será executada."
-                start-Sleep -Seconds 2
-                cls
 
                 # Obtém a lista de programas instalados no Registro
                 $uninstallKeys = Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*, HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\* | 
